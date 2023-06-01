@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ECECDC;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ECECDC;
+}
+
+.img-cont {
+    position: absolute;
+    width: 720px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #2fcfa7;
+}
+
+.img-figura {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 10px;
+    top: 20px;
+}
+
+.title {
+    position: absolute;
+    width: 842px;
+    height: 234px;
+    left: calc(50% - 842px/2 + 310px);
+    top: 50px;
+    font-family: 'Frank Ruhl Libre';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px;
+    text-align: center;
+    color: #186b57;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#lbForms {
+    position: absolute;
+    width: 442px;
+    height: 28px;
+    left: 791px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #1c7c64;
+}
+
+.email {
+    top: 225px;
+}
+
+.senha {
+    top: 400px;
+}
+
+.inpForms {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    left: 791px;
+    background: #dcdcdc;
+    border: 1px solid #1c7c64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 20px;
+    text-indent: 10px;
+    color: #1c7c64;
+}
+
+#email {
+    top: 265px;
+}
+
+#senha {
+    top: 439px;
+}
+
+.btnSubmit {
+    position: absolute;
+    width: 241px;
+    height: 67px;
+    left: 948px;
+    top: 600px;
+    background: #1c7c64;
+    border-radius: 35px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+    color: #acecdc;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    left: calc(50% - 842px/2 + 1000px);
+    top: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.button-link {
+    position: absolute;
+    left: 0%;
+    right: 0.33%;
+    top: 0%;
+    bottom: 0%;
+    background: #acecdc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.texto-button {
+    position: absolute;
+    left: 27%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #186b57;
+}

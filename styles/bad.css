@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ececdc;
+}
+
+main {
+    width: 100%;
+    height: 1024px;
+    position: relative;
+    background: #ececdc;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    width: 593px;
+    height: 50px;
+    left: 423px;
+    top: 73px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    color: #2fcfa7;
+}
+
+.pergunta {
+    position: absolute;
+    width: 603px;
+    height: 278px;
+    left: 755px;
+    top: 260px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #186b57;
+    z-index: 1;
+}
+
+.img-quiz {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 81px;
+    top: 199px;
+    z-index: 1;
+}
+
+.btn-style {
+    background: #acecdc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 600px;
+    height: 100px;
+    z-index: 1;
+}
+
+.opcao1 {
+    position: absolute;
+    left: 81px;
+    top: 675px;
+}
+
+.opcao2 {
+    position: absolute;
+    left: 758px;
+    top: 675px;
+}
+
+.opcao3 {
+    position: absolute;
+    left: 81px;
+    top: 851px;
+}
+
+.opcao4 {
+    position: absolute;
+    left: 758px;
+    top: 851px;
+}
+
+.rsp-style {
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #186b57;
+}
+
+.respostaA {
+    position: absolute;
+    left: 18%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.respostaB {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.respostaC {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.respostaD {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.popout {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1159px;
+    height: 576px;
+    left: 113px;
+    top: 199px;
+    background: #ececdc;
+    border: 5px solid #000;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+.qbad {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 26px;
+    top: 42px;
+}
+
+.txtpo {
+    position: absolute;
+    width: 925px;
+    height: 576px;
+    left: 234px;
+    top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 106px;
+    display: flex;
+    align-items: center;
+    color: #186b57;
+}
+
+.button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1090px;
+    top: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.button-link {
+    position: absolute;
+    left: 0%;
+    right: 0.33%;
+    top: 0%;
+    bottom: 0%;
+    background: #acecdc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.texto-button {
+    position: absolute;
+    left: 29%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #186b57;
+}

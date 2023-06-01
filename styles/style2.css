@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ECECDC;
+}
+
+main {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #ECECDC;
+}
+
+.img-cont {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    left: 0%;
+    top: 0%;
+    background: #2fcfa7;
+}
+
+.img-figura {
+    position: absolute;
+    width: 720px;
+    height: 720px;
+    left: 0%;
+    top: 10%;
+}
+
+.title {
+    position: absolute;
+    width: 842px;
+    height: 234px;
+    left: calc(50% - 842px/2 + 300px);
+    top: 1%;
+    font-family: 'Frank Ruhl Libre';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 77px;
+    text-align: center;
+    color: #186b57;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle {
+    position: absolute;
+    font-size: 24px;
+    line-height: 31px;
+    left: calc(50% - 842px/2 + 265px);
+    text-align: center;
+}
+
+.subtitle-login {
+    position: absolute;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    left: calc(50% - 842px/2 + 435px);
+    color: #186b57;
+}
+
+.subtitle-login:link,
+.subtitle-login:visited {
+    color: none;
+    text-decoration: underline;
+}
+
+#lbForms {
+    position: absolute;
+    width: 442px;
+    height: 28px;
+    left: calc(50% - 442px/2 + 280px);
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #1c7c64;
+}
+
+.nomeC {
+    top: 15.5%;
+}
+
+.email {
+    top: 24.5%;
+}
+
+.senha {
+    top: 346px;
+}
+
+.cpf {
+    top: 445px;
+}
+
+.datanasc {
+    top: 544px;
+}
+
+.estado {
+    top: 643px;
+}
+
+.inpForms {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    left: calc(50% - 442px/2 + 280px);
+    background: #dcdcdc;
+    border: 1px solid #1c7c64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 20px;
+    text-indent: 10px;
+    color: #1c7c64;
+}
+
+#nomeC {
+    top: 195px;
+}
+
+#email {
+    top: 284px;
+}
+
+#senha {
+    top: 383px;
+}
+
+#cpf {
+    top: 482px;
+}
+
+#datanasc {
+    top: 581px;
+}
+
+#estado {
+    top: 680px;
+}
+
+.btnSubmit {
+    position: absolute;
+    width: 241px;
+    height: 67px;
+    left: 948px;
+    top: 798px;
+    background: #1c7c64;
+    border-radius: 35px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 52px;
+    color: #acecdc;
+    border: none;
+    cursor: pointer;
+}

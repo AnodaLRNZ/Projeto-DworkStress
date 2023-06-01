@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ECECDC;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #ECECDC;
+    margin: auto;
+}
+
+.texto {
+    position: absolute;
+    width: 603px;
+    height: 278px;
+    left: 63px;
+    top: 151px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #186b57;
+}
+
+.button {
+    position: absolute;
+    width: 301px;
+    height: 60px;
+    left: 63px;
+    top: 533px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.button-link {
+    position: absolute;
+    left: 0%;
+    right: 0.33%;
+    top: 0%;
+    bottom: 0%;
+    background: #acecdc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.texto-button {
+    position: absolute;
+    left: 26%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #186b57;
+}
+
+.img-figura {
+    position: absolute;
+    width: 640px;
+    height: 427px;
+    left: 738px;
+    top: 191px;
+}

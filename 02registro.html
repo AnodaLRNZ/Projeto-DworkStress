@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DworkStress - Registro</title>
+    <link rel="stylesheet" href="./styles/style2.css">
+</head>
+<body>
+    <main>
+        <div class="img-cont">
+            <img src="./images/registro.png" alt="" class="img-figura">
+        </div>
+        <div class="registro">
+            <h1 class="title">Crie sua conta<br><span class="subtitle">Já é cadastrado,</span> <a class="subtitle-login" href="./03login.html">faça seu Login</a></h1>
+            <br>
+            <br>
+            <form>
+                <label for="nomeC" class="nomeC" id="lbForms">Nome completo:</label>
+                <input type="text" id="nomeC" name="nomeC" class="inpForms" required>
+                <br>
+                <label for="email" class="email" id="lbForms">E-Mail:</label>
+                <input type="email" id="email" name="email" class="inpForms" required>
+                <br>
+                <label for="senha" class="senha" id="lbForms">Senha:</label>
+                <input type="password" id="senha" name="senha" class="inpForms" required>
+                <br>
+                <label for="cpf" class="cpf" id="lbForms">CPF(sem pontos):</label>
+                <input type="number" id="cpf" name="cpf" class="inpForms" required>
+                <br>
+                <label for="datanasc" class="datanasc" id="lbForms">Data de Nascimento:</label>
+                <input type="date" id="datanasc" name="datanasc" class="inpForms" required>
+                <br>
+                <label for="estado" class="estado" id="lbForms">Estado:</label>
+                <select id="estado" name="estado" class="inpForms" required>
+                    <option value="" selected>Selecione um estado</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select>
+                <br>
+                <input type="submit" class="btnSubmit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
